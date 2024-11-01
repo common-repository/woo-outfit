@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Woocommerce_Outfit\\Traits\\": "traits/",
+            "Woocommerce_Outfit\\Admin\\": "admin/"
+        }
+    }
+}

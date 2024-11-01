@@ -1,0 +1,323 @@
+/*************************************
+ * Outfit Modal 
+ ************************************/
+#woo-outfit-modal a {
+	text-decoration: none;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#woo-outfit-modal a:hover,
+#woo-outfit-modal a:focus,
+#woo-outfit-modal button:hover,
+#woo-outfit-modal button:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#woo-outfit-modal .modal-content {
+	border-radius: 0;
+}
+
+#woo-outfit-modal .modal-body {
+	padding: 12px;
+}
+
+#woo-outfit-modal .woo-outfit-modal-thumb {
+	width: 60%;
+	position: relative;
+	float: left;
+	display: inline-block;
+}
+
+#woo-outfit-modal .woo-outfit-modal-thumb img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 0;
+}
+
+#woo-outfit-modal .woo-outfit-modal-details {
+	width: 40%;
+	float: left;
+	display: inline-block;
+	margin-bottom: 45px;
+}
+
+/*author*/
+#woo-outfit-modal .woo-outfit-modal-author-data {
+	margin: 5px 0 25px 15px;
+	line-height: 24px;
+}
+
+#woo-outfit-modal .woo-outfit-modal-author-data .close {
+	float: right;
+	width: 24px;
+	height: 24px;
+	font-size: 24px;
+	line-height: 24px;
+	color: #999;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+#woo-outfit-modal .woo-outfit-modal-author-data .close:hover {
+	color: #555;
+}
+
+#woo-outfit-modal .woo-outfit-modal-author-data .outfit-author-name {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+#woo-outfit-modal .woo-outfit-modal-author-data .woo-outfit-follow-btn {
+	font-size: 12px;
+	font-weight: 400;
+	background-color: #000;
+	color: #fff;
+	display: inline-block;
+	padding: 0 15px;
+	margin-left: 15px;
+}
+
+/*hooked products*/
+#woo-outfit-modal .woo-outfit-modal-hooked-products {
+	margin: 0 0 35px 12px;
+}
+
+#woo-outfit-modal .woo-outfit-modal-hooked-products .item {
+	display: none;
+	padding: 10px;
+	border: 1px solid #eee;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#woo-outfit-modal .woo-outfit-modal-hooked-products.owl-loaded .item {
+	display: block;
+}
+
+#woo-outfit-modal .woo-outfit-modal-hooked-products img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 0;
+}
+
+#woo-outfit-modal .woo-outfit-modal-hooked-products .title {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #555;
+	margin: 5px 0 10px;
+	padding: 0;
+}
+
+#woo-outfit-modal .woo-outfit-modal-hooked-products .ribbon {
+	font-family: 'Georgia';
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 12px;
+	text-align: center;
+	font-style: italic;
+	color: #fff;
+	display: inline-block;
+	z-index: 1;
+	padding: 6px 0;
+	position: relative;
+	width: 100px;
+	top: -10px;
+}
+
+#woo-outfit-modal .woo-outfit-modal-hooked-products .ribbon:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	background: rgba(0, 0, 0, 0);
+	border: 12px solid transparent;
+	border-left-color: rgba(0, 0, 0, 0);
+	border-top-color: #111;
+	border-bottom-color: #111;
+	border-right-color: rgba(0, 0, 0, 0);
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	z-index: -1;
+}
+
+#woo-outfit-modal .woo-outfit-modal-hooked-products .price {
+	font-size: 14px;
+	font-weight: 700;
+	color: #111;
+	margin: 0;
+}
+
+#woo-outfit-modal .woo-outfit-modal-hooked-products .price del {
+	font-weight: 400;
+	color: #aaa;
+	margin-right: 3px;
+}
+
+#woo-outfit-modal .woo-outfit-modal-hooked-products .price ins {
+	font-weight: 700;
+	text-decoration: none;
+}
+
+/*tags*/
+#woo-outfit-modal .woo-outfit-modal-tags {
+	margin: 0 0 35px 12px;
+}
+
+#woo-outfit-modal .woo-outfit-modal-tags a {
+	display: inline-block;
+	font-size: 13px;
+	line-height: 1;
+	color: #fff;
+	background-color: #000;
+	margin: 0 2px 0 0;
+	padding: 8px 12px;
+}
+
+/*footer*/
+#woo-outfit-modal .woo-outfit-modal-footer-info {
+	position: absolute;
+	bottom: 12px;
+	right: 12px;
+	left: calc(60% + 12px);
+	height: 45px;
+	line-height: 45px;
+	border-top: 1px solid #eee;
+}
+
+#woo-outfit-modal .woo-outfit-modal-footer-info .woo-outfit-meta-time {
+	font-size: 14px;
+	color: #999;
+	margin-right: 15px;
+}
+
+#woo-outfit-modal .woo-outfit-modal-footer-info .woo-outfit-rating {
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+/*navigation*/
+#woo-outfit-modal .outfit-prev,
+#woo-outfit-modal .outfit-next {
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+}
+
+#woo-outfit-modal .outfit-prev {
+	left: 10px;
+}
+
+#woo-outfit-modal .outfit-next {
+	right: 10px;
+}
+
+#woo-outfit-modal .outfit-prev .woo-outfit-icon,
+#woo-outfit-modal .outfit-next .woo-outfit-icon {
+	font-size: 48px;
+	line-height: 1;
+	color: #fff;
+	text-shadow: 0 1px 1px #999;
+}
+
+/*owl carousel*/
+#woo-outfit-modal .owl-carousel {
+	width: auto;
+}
+
+#woo-outfit-modal .owl-nav {
+	margin-top: 15px;
+	text-align: center;
+}
+
+#woo-outfit-modal .owl-carousel .owl-nav .owl-prev,
+#woo-outfit-modal .owl-carousel .owl-nav .owl-next {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #fff;
+	border: 1px solid #eee;
+	margin: 0 2px;
+}
+
+#woo-outfit-modal .owl-carousel .owl-nav .owl-prev:before,
+#woo-outfit-modal .owl-carousel .owl-nav .owl-next:before {
+	color: #fff;
+	font-size: 25px;
+}
+
+/*Share Button*/
+.woo-outfit-social-share {
+	display: inline-block;
+}
+
+.woo-outfit-social-share a {
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: center;
+	color: #fff;
+	border-radius: 50px;
+	margin: 0 3px;
+}
+
+.woo-outfit-social-share .woo-outfit-icon-facebook {
+	background-color: #3b5998;
+}
+
+.woo-outfit-social-share .woo-outfit-icon-tumblr {
+	background-color: #35465c;
+}
+
+.woo-outfit-social-share .woo-outfit-icon-pinterest-p {
+	background-color: #bd081c;
+}
+
+/*Post Rating*/
+.woo-outfit-rating {
+	display: inline-block;
+}
+
+.woo-outfit-rating .woo-outfit-rating-heart {
+	line-height: 30px;
+	text-align: center;
+	color: #82c6c7;
+	float: left;
+	display: inline-block;
+	width: 25px;
+	height: 30px;
+}
+
+.woo-outfit-rating .woo-outfit-rating-heart.enabled {
+	color: #cd2122;
+}
+
+.woo-outfit-rating .woo-outfit-rating-heart .fa {
+	font-size: 18px;
+}
+
+.woo-outfit-rating .woo-outfit-rating-count {
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	color: #999;
+	float: left;
+	display: inline-block;
+	min-width: 10px;
+	height: 30px;
+}
